@@ -19,5 +19,5 @@ void addOne(int var){
  
 void addOnePtr(int var){
 	(*varPtr)++;
-	printf("Inside addOnePtr: %d \n", var);
+	printf("Inside addOnePtr: %d \n", *var);
 } // end addOnePtr
