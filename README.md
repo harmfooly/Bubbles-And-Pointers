@@ -1,8 +1,10 @@
 # Bubbles-And-Pointers
 9/8/2026
 
-* Establish three functions, main/sort/swap
-* Main: print "before:", establish the list of values, print values
-* Sort: print "after:", show values after swap 
-* Swap: determine the value priority (least to greatest), swap int2 with int1 if int2 is greater than int1, else skip to the next value, int2 becomes int1
+* Establish three functions, swap/sort/printvalues
+* __Main__: Prints “before”, establishes the lists of values, Prints “after”
+* __Swap__: int2 becomes int1, int1 is stored in temp, temp becomes int2
+* __Sort__: Determines the value priority _(least to greatest)_ if int1 > int2, swap. Print values on each iteration
+* __PrintValues__: Prints values, __called by sort function after swap has been made__
+
 
