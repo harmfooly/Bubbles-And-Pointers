@@ -17,7 +17,7 @@ void printValues(int *values){
 } // end printValues
 
 
-// Sort Function: Determines the value priority (least to greatest), swap int2 w/ int1 if int2 > int1
+// Sort Function: Determines the value priority (least to greatest), then performs swap if necessary.
 // Also Prints Values upon with each iteration
 void sort(int *values) {
     for (int i = 0; i < 9 - 1; i++) {
