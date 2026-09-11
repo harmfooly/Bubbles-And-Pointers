@@ -7,4 +7,4 @@
 * __Sort__: Determines the value priority _(least to greatest)_ if int1 > int2, swap. Print values on each iteration
 * __PrintValues__: Prints values, __called by sort function after swap has been made__
 
-
+## Project can be found in "Lab" Folder
