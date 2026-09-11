@@ -11,7 +11,7 @@ void swap(int *a, int *b){
 
 // PrintValues Function: Prints values list, called by sort function after swap has been made
 void printValues(int *values){
-       for (int i = 0; i < 9 - 1; i++){
+       for (int i = 0; i < MAX ; i++){
 	      printf("%d ", values[i]);
        } // end for loop	       
 } // end printValues
@@ -20,8 +20,8 @@ void printValues(int *values){
 // Sort Function: Determines the value priority (least to greatest), then performs swap if necessary.
 // Also Prints Values upon with each iteration
 void sort(int *values) {
-    for (int i = 0; i < 9 - 1; i++) {
-        for (int j = 0; j < 9  - i; j++) {
+    for (int i = 0; i < MAX - 1; i++) {
+        for (int j = 0; j < MAX  - i; j++) {
             if (values[j] > values[j + 1]) {
                 swap(&values[j], &values[j + 1]);
 		printValues(values);
